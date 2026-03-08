@@ -1449,12 +1449,12 @@ GARUDA SENTRA MEDIKA (GSM)
 
 VAL=
 twd HL=
-fxx/r,u*&lt;corga>/s(segmen lama yang belum dipakai & segmen pembaruan) HB=
+fxx/r,u*<corga>/s(segmen lama yang belum dipakai & segmen pembaruan) HB=
 SLH hbhl=
-&lt;note↓> fqd (rute)/r,up,&quot;doi&quot;/dot/c(sub class)  PN=
+<note↓> fqd (rute)/r,up,"doi"/dot/c(sub class)  PN=
 =
 =
-&lt;note↓> fqd (rute)/r,up,&quot;doi&quot;/dot/c(sub class)  PN=
+<note↓> fqd (rute)/r,up,"doi"/dot/c(sub class)  PN=
 =
 =
 
@@ -1494,7 +1494,7 @@ FQN..//PE
 -FARE BASIC–PENALTY
 
 Konversi fare basic NUC:
-FQC...NUC/(KURS FARE)/&quot;DOI&quot;
+FQC...NUC/(KURS FARE)/"DOI"
 FQC...(KURS FARE)/USD (HUB konversi non IDR)
 FQC...USD/IDR
 
@@ -1504,7 +1504,7 @@ Note:
 #GARUDA Refund International Totally Unused Ticket
 
 +Regulasi (O/A/C)
--fqd (rute)/r,up,&quot;doi&quot;/dot/c(sub class)  (Normal/Corga)
+-fqd (rute)/r,up,"doi"/dot/c(sub class)  (Normal/Corga)
 -Refund dihitung berdasarkan kelas terendah
 -Jika salah satu rute after flight maka penalty dikenakan after flight semua rute
 
@@ -1524,7 +1524,7 @@ Note:
 -Refund dihitung berdasarkan kelas yang akan di refund pada FC
 
 +Penalty
--Fare basic yang ingin di refund&lt;gambar>*penalty % (tabel refund)
+-Fare basic yang ingin di refund<gambar>*penalty % (tabel refund)
 (hasil dibulatkan per 1000)
 -Hasil pembulatan*1.11 (PPN 11%),
 (hasil dibulatkan per 100)
@@ -1561,7 +1561,7 @@ Note:
 #GARUDA Reroute Redemption
 
 +Redeposit
--Cek poin redemption=Buka amala cek transaksi sesuai &quot;DOI&quot;
+-Cek poin redemption=Buka amala cek transaksi sesuai "DOI"
 -Cek expired miles=Transaksi-view details
 -Cek penalty=Poin redemption * 20%
 -Poin kembali/redeposit poin untuk proses reroute=Poin redemption-expired-penalty
@@ -1579,7 +1579,7 @@ Note:
 
 #GARUDA Refund Redemption
 
--Cek poin redemption: Buka amala cek transaksi sesuai &quot;DOI&quot;
+-Cek poin redemption: Buka amala cek transaksi sesuai "DOI"
 -Cek expired miles: Transaksi-view details
 -Cek penalty: Poin redemption * 20%
 -Refund: Poin redemption-expired-penalty
@@ -1593,11 +1593,11 @@ Note:
 -Tiket berbayar regular bisa direfund sesuai kelas sebelumnya
 
 +Refund tiket reissued redemption
--Tiket redemption yang diterbitkan ulang, transaksi &quot;DOI&quot; tiket = poin penalty rebook sebelumnya
--Poin original =cek transaksi sesuai &quot;DOI&quot; pertama (cek FO tiket)
+-Tiket redemption yang diterbitkan ulang, transaksi "DOI" tiket = poin penalty rebook sebelumnya
+-Poin original =cek transaksi sesuai "DOI" pertama (cek FO tiket)
 
 +Refund Partially
-&lt;GAMBAR> pakaii miles yang ingin di refund saja, tapi refundnya harus tiket yang rute sebelumnya sudah flown, jika masih open semua tapi ingin refund 1 saja tidak bisa
+<GAMBAR> pakaii miles yang ingin di refund saja, tapi refundnya harus tiket yang rute sebelumnya sudah flown, jika masih open semua tapi ingin refund 1 saja tidak bisa
 
 #GARUDA Upgrade Redemption International & Domestic Partially
 
@@ -1684,7 +1684,7 @@ int VAL=
 twd  HL=
 smls fxx/r,up/s(smls & segmen pembaruan)  HB=
 SLF hbhl=
-fqd (rute)/r,up,&quot;doi&quot;/dot/c(sub class)  PN=
+fqd (rute)/r,up,"doi"/dot/c(sub class)  PN=
 (1000)TTL=
 =
 
@@ -1704,7 +1704,7 @@ int VAL=
 twd  HL=
 fxx/r,up/s(segmen lama yang belum dipakai & segmen pembaruan)  HB=
 SLH hbhl=
-fqd (rute)/r,up,&quot;doi&quot;/dot/c(sub class)  PN=
+fqd (rute)/r,up,"doi"/dot/c(sub class)  PN=
 
 (1000)TTL=
 =
@@ -1789,7 +1789,7 @@ Note:
 -Komponen TAX harus dikurangi satu satu
 cth: YQ-YQ, E7-E7
 -Jika pengurangan minus: 0
-- PN pakai FQD(Rute)/R,UP*CORGA… ,&quot;DOI&quot;/DOT/C (sub class)
+- PN pakai FQD(Rute)/R,UP*CORGA… ,"DOI"/DOT/C (sub class)
 FQN…//PE
 -FQD mengacu rute keberangkatan/starting poin.
 -Penalty mengacu kelas yang diubah
@@ -1797,7 +1797,7 @@ FQN…//PE
 +corga
 HB : FXX/R,U*CORGA…/S…
 PN : Kelas yang diubah
-FQD(Rute)/R,U*CORGA… ,&quot;DOI&quot;/DOT/C (sub class)
+FQD(Rute)/R,U*CORGA… ,"DOI"/DOT/C (sub class)
 
 (ATC)
 1.Jika muncul 2 harga, harus dicek harga bisa dipakai atau tidak
@@ -1812,7 +1812,7 @@ int VAL=
 twd  HL=
 fxx/r,up/s(segmen lama yang belum dipakai & segmen pembaruan)  HB=
 SLH hbhl=
-&lt;note↓> fqd (rute)/r,up,&quot;doi&quot;/dot/c(sub class)  PN=
+<note↓> fqd (rute)/r,up,"doi"/dot/c(sub class)  PN=
 
 (1000)TTL=
 =
@@ -1838,10 +1838,10 @@ VAL=
 twd HL=
 fxx/r,up/s(segmen lama yang belum dipakai & segmen pembaruan) HB=
 SLH hbhl=
-fc &lt;note↓> PN1=
+fc <note↓> PN1=
 =
 =
-fc &lt;note↓> PN2=
+fc <note↓> PN2=
 =
 =
 
@@ -1880,7 +1880,7 @@ fc PN=
 TOTAL ALL PAX=
 
 Note:
-- PN pakai FQD(Rute)/R,U*CORGA… ,&quot;DOI&quot;/DOT/C (sub class)
+- PN pakai FQD(Rute)/R,U*CORGA… ,"DOI"/DOT/C (sub class)
 FQN…//PE
 
 (ATC)
@@ -1915,7 +1915,7 @@ VAL=
 twd/xt  HL=
 fxx  HB=
 SLF hbhl=
-fqd (rute)/r,up,&quot;doi&quot;/dot/c(sub class)  PN=
+fqd (rute)/r,up,"doi"/dot/c(sub class)  PN=
 (1000)TTL=
 =
 
@@ -2675,8 +2675,8 @@ Bayi berumur di bawah 2 tahun diperbolehkan melakukan perjalanan bersama Garuda 
 
 Kondisi Penerimaan Bayi
 -Bayi di bawah 48 jam: tidak diperbolehkan terbang
--Bayi berumur &lt;7 hari: diperbolehkan dengan izin medis (MEDIF)
--Bayi 7 hari – &lt;2 tahun: diperbolehkan tanpa izin medis
+-Bayi berumur <7 hari: diperbolehkan dengan izin medis (MEDIF)
+-Bayi 7 hari – <2 tahun: diperbolehkan tanpa izin medis
 -Bayi prematur: diperbolehkan, dikategorikan sebagai MEDA (Medical Case) dan memerlukan penanganan khusus.
 
 Informasi lengkap ketentuan infant ada di https://garuda-indonesia.com/static/id/garuda-indonesia-experience/on-ground/traveling-with-child-and-infant.html.
@@ -4238,8 +4238,8 @@ How to pay for Garuda Indonesia tickets via BCA Mobile (not My BCA):
 Cara pembayaran tiket Garuda Indonesia melalui BNI Mobile:
 
 1. Buka aplikasi BNI Mobile Banking dan login
-2. Pilih menu &quot;Pembayaran&quot;
-3. Pilih &quot;Penerbangan&quot;, lalu pilih &quot;Garuda Indonesia&quot;
+2. Pilih menu "Pembayaran"
+3. Pilih "Penerbangan", lalu pilih "Garuda Indonesia"
 4. Masukkan 13 digit kode bayar
 5. Tinjau informasi tiket dan jumlah pembayaran
 6. Masukkan MPIN BNI untuk konfirmasi
@@ -4265,7 +4265,7 @@ Cara pembayaran tiket Garuda Indonesia melalui MANDIRI Mobile:
 
 1. Buka aplikasi Livin Mandiri Online Banking di ponsel Anda
 2. Login menggunakan User ID dan Password
-3. Pilih menu &quot;Pembayaran&quot; > &quot;Tiket Pesawat&quot; > &quot;Garuda Indonesia&quot;
+3. Pilih menu "Pembayaran" > "Tiket Pesawat" > "Garuda Indonesia"
 4. Pilih kode 53014 Garuda Indonesia
 5. Masukkan kode bayar 13 digit yang Anda dapatkan
 6. Konfirmasi detail pembayaran
@@ -4291,7 +4291,7 @@ Cara pembayaran tiket Garuda Indonesia melalui DANAMON Mobile:
 
 1. Buka aplikasi Danamon Online Banking di ponsel Anda
 2. Login menggunakan User ID dan Password
-3. Pilih menu &quot;Pembayaran&quot; > &quot;Tiket Pesawat&quot; > &quot;Garuda Indonesia&quot;
+3. Pilih menu "Pembayaran" > "Tiket Pesawat" > "Garuda Indonesia"
 4. Masukkan kode bayar 13 digit yang Anda dapatkan
 5. Konfirmasi detail pembayaran
 6. Selesaikan pembayaran dan simpan bukti transaksi
@@ -4302,7 +4302,7 @@ How to pay for Garuda Indonesia tickets via DANAMON Mobile:
 
 1. Open the Danamon Online Banking app on your mobile phone
 2. Log in using your User ID and Password
-3. Select &quot;Payment&quot; > &quot;Flight Tickets&quot; > &quot;Garuda Indonesia&quot;
+3. Select "Payment" > "Flight Tickets" > "Garuda Indonesia"
 4. Enter the 13-digit payment code you received
 5. Confirm your payment details
 6. Complete the payment and save your proof of transaction
@@ -4374,8 +4374,8 @@ How to pay for Garuda Indonesia tickets via BNI Bank ATM:
 Cara pembayaran tiket Garuda Indonesia melalui ATM Bank MANDIRI:
 
 1. Masukkan kartu ATM dan PIN Anda
-2. Pilih menu &quot;Pembayaran&quot; atau &quot;Pembelian&quot;
-3. Pilih &quot;Garuda Indonesia&quot; atau &quot;Pembayaran Tiket Pesawat&quot;
+2. Pilih menu "Pembayaran" atau "Pembelian"
+3. Pilih "Garuda Indonesia" atau "Pembayaran Tiket Pesawat"
 4. Masukkan 13 digit kode bayar yang diawali 126
 5. Konfirmasi detail pembayaran yang muncul
 6. Selesaikan transaksi dan simpan bukti pembayaran
@@ -4398,8 +4398,8 @@ How to pay for Garuda Indonesia tickets via MANDIRI Bank ATM:
 Cara pembayaran tiket Garuda Indonesia melalui ATM Bank DANAMON:
 
 1. Masukkan kartu ATM dan PIN Anda
-2. Pilih menu &quot;Pembayaran&quot; atau &quot;Pembelian&quot;
-3. Pilih &quot;Garuda Indonesia&quot; atau &quot;Pembayaran Tiket Pesawat&quot;
+2. Pilih menu "Pembayaran" atau "Pembelian"
+3. Pilih "Garuda Indonesia" atau "Pembayaran Tiket Pesawat"
 4. Masukkan 13 digit kode bayar yang diawali 126
 5. Konfirmasi detail pembayaran yang muncul
 6. Selesaikan transaksi dan simpan bukti pembayaran
@@ -4499,7 +4499,7 @@ Cara pembayaran tiket Garuda Indonesia melalui Internet Banking Mandiri:
 
 1. Buka situs resmi internet banking Bank Mandiri
 2. Login dengan User ID dan Password Anda
-3. Pilih menu &quot;Pembayaran&quot; > &quot;Tiket Pesawat&quot; > &quot;Garuda Indonesia&quot;
+3. Pilih menu "Pembayaran" > "Tiket Pesawat" > "Garuda Indonesia"
 4. Masukkan 13 digit kode bayar
 5. Cek ulang data dan konfirmasi pembayaran
 6. Simpan bukti transaksi
@@ -4523,7 +4523,7 @@ Cara pembayaran tiket Garuda Indonesia melalui Internet Banking DANAMON:
 
 1. Buka situs resmi internet banking Bank Danamon
 2. Login dengan User ID dan Password Anda
-3. Pilih menu &quot;Pembayaran&quot; > &quot;Tiket Pesawat&quot; > &quot;Garuda Indonesia&quot;
+3. Pilih menu "Pembayaran" > "Tiket Pesawat" > "Garuda Indonesia"
 4. Masukkan 13 digit kode bayar
 5. Cek ulang data dan konfirmasi pembayaran
 6. Simpan bukti transaksi
@@ -4677,8 +4677,8 @@ Syarat & Ketentuan Online Check-In:
 
 1. Satu kode booking hanya untuk satu kali Online Check-In. Jika ada lebih dari satu penumpang, semua wajib check-in bersamaan, jika tidak maka sisanya hanya bisa check-in di bandara.
 2. Tidak tersedia untuk:
-- Bayi &lt;2 tahun tanpa kursi.
-- Penumpang dengan kebutuhan khusus (hamil, anak &lt;12 tahun sendiri/UM, kursi roda, stretcher case, dll.).
+- Bayi <2 tahun tanpa kursi.
+- Penumpang dengan kebutuhan khusus (hamil, anak <12 tahun sendiri/UM, kursi roda, stretcher case, dll.).
 - Group booking (≥10 penumpang).
 3. Sistem memberikan kursi otomatis, namun dapat diganti saat check-in online.
 4. Penerbangan internasional: boarding pass online (PDF/QR) wajib dilaporkan di konter, dengan menunjukkan paspor (masa berlaku ≥6 bulan) dan dokumen perjalanan (visa, dll.).
@@ -4725,8 +4725,8 @@ Online Check-in Terms and Conditions:
 
 1. One booking code is only valid for one Online Check-In. If there is more than one passenger, all must check in together, otherwise the rest can only check in at the airport.
 2. Not available for:
-- Infants &lt;2 years old without a seat.
-- Passengers with special needs (pregnant women, children &lt;12 years old traveling alone/UM, wheelchair users, stretcher cases, etc.).
+- Infants <2 years old without a seat.
+- Passengers with special needs (pregnant women, children <12 years old traveling alone/UM, wheelchair users, stretcher cases, etc.).
 - Group bookings (≥10 passengers).
 3. The system assigns seats automatically, but they can be changed during online check-in.
 4. International flights: online boarding passes (PDF/QR) must be presented at the counter, along with a passport (valid for ≥6 months) and travel documents (visa, etc.).
