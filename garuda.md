@@ -4,7 +4,7 @@ __________CHROME
 
 ->    < SIXTH SENSE AND CTI >
 
-1->    ONX
+->    ONX
 https://garuda.onx.co.id/login
 ridwanhilmyalim@gmail.com
 1234@Grd
