@@ -1,6 +1,5 @@
-
-
 ------------------------------  GLOBAL
+
 __________CHROME
 
 ->    < SIXTH SENSE AND CTI >
